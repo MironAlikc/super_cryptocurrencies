@@ -13,7 +13,7 @@ class CryptoCurrenciesList extends StatelessWidget {
       title: 'Crypto Currencies List',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.yellow,
       ),
       home: const MyHomePage(),
     );
