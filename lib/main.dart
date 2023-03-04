@@ -1,28 +1,27 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const CryptoCurrenciesList());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class CryptoCurrenciesList extends StatelessWidget {
+  const CryptoCurrenciesList({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Crypto Currencies List',
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.black,
         primarySwatch: Colors.green,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -41,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('CryptoC urrencies List'),
       ),
       body: Center(
         child: Column(
