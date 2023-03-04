@@ -12,8 +12,8 @@ class CryptoCurrenciesList extends StatelessWidget {
     return MaterialApp(
       title: 'Crypto Currencies List',
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.black,
-        primarySwatch: Colors.green,
+        scaffoldBackgroundColor: Colors.grey,
+        primarySwatch: Colors.amber,
       ),
       home: const MyHomePage(),
     );
