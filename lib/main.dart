@@ -17,6 +17,7 @@ class CryptoCurrenciesList extends StatelessWidget {
         primarySwatch: Colors.amber,
         dividerColor: Colors.white24,
         appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(color: Colors.white),
           backgroundColor: Colors.black,
           titleTextStyle: TextStyle(
               color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700),
